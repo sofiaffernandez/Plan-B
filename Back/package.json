@@ -1,0 +1,53 @@
+{
+  "name": "exit",
+  "version": "1.0.0",
+  "description": "<br> DESCRIPCIÓN <br> Implementar una API que permita gestionar un portal donde los usuarios puedan publicar recomendaciones de viaje de sitios o experiencias poco conocidas. <br> ANÓNIMO:<br> ● Buscar recomendaciones por lugar, categoría<br> ● Poder ordenar los resultados de búsqueda por votos<br> ● Ver detalle de una recomendación<br> ● Login (con email y password)<br> ● Registro (nombre, email y password)<br>",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sofiaffernandez/ViajesRecomendados.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sofiaffernandez/ViajesRecomendados/issues"
+  },
+  "homepage": "https://github.com/sofiaffernandez/ViajesRecomendados#readme",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.47.1",
+    "@typescript-eslint/parser": "^5.47.1",
+    "eslint": "^8.30.0",
+    "eslint-plugin-react": "^7.31.11",
+    "nodemon": "^2.0.20",
+    "prettier": "2.8.1"
+  },
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "@sendgrid/mail": "^7.7.0",
+    "bcrypt": "^5.1.0",
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "date-fns": "^2.29.3",
+    "dotenv": "^16.0.3",
+    "env": "^0.0.2",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.0",
+    "faker": "^6.6.6",
+    "joi": "^17.7.0",
+    "jsonwebtoken": "^9.0.0",
+    "lodash": "^4.17.21",
+    "morgan": "^1.10.0",
+    "mysql2": "^2.3.3",
+    "nanoid": "^3.3.4",
+    "path": "^0.12.7",
+    "react-dev-utils": "^10.0.0",
+    "react-scripts": "^5.0.1",
+    "sharp": "^0.31.3",
+    "stack": "^0.1.0",
+    "uuid": "^9.0.0"
+  }
+}
