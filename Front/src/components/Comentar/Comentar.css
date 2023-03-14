@@ -1,0 +1,10 @@
+form.formcomentar{
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+button[type="submit"] {
+    display: block;
+    margin-top: 10px;
+
+  }

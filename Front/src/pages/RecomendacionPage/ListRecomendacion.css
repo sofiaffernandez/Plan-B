@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&family=Epilogue:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lilita+One&family=Sniglet:wght@400;800&display=swap');
+section.lista{
+  display: flex;
+  flex-wrap: wrap;
+    justify-content: space-around;
+    justify-self: center;
+    align-items: center;
+}
+section ul.listaRecomendaciones{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    display: flex;
+    gap:1rem;
+    list-style: none;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    justify-self: center;
+    align-items: center;
+}
+main.dark ul.listaRecomendaciones li{
+  background-color: #405155;
+}
+
+section ul.listaRecomendaciones li{
+position: relative;
+overflow: hidden;
+  border: 2px solid #92929242;
+  box-sizing: inherit;
+  border-radius: 5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  justify-self: center;
+  align-items: center;
+  gap: 1rem;
+  width: 20rem;
+  height: 20rem;
+  text-align: center;
+   
+  }
+  button {
+    justify-self: center;
+    align-items: center;
+    background-color: rgb(147, 195, 207);
+    color: black;
+    border: none;
+    border-radius: 0.25rem;
+    padding: 0.5rem 1rem;
+    margin: 1rem;
+  }
+  section ul.listaRecomendaciones img{
+  width: 20rem;
+  }
+
+ 

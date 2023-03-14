@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&family=Epilogue:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lilita+One&family=Sniglet:wght@400;800&display=swap');
+
+/* Estilos para dispositivos móviles */
+@media only screen and (max-width: 600px) {
+
+  section.Presentacion {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+  }
+
+  section.Presentacion img {
+    display: none;
+  }
+
+  section.Voto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  section.Voto img {
+    display: none;
+  }
+  .imagenAccede{
+   display: none;
+ }
+  section.accede h2,
+  section.recomendaciones h2 {
+    font-size: 1.5rem;
+    margin-top: 2rem;
+  }
+section.accede {
+display: flex;
+flex-direction: column;
+justify-content: center;
+    align-items: center;
+
+}
+section.Presentacion p,
+section.Voto p,
+section.accede p,
+section.accede a {
+  margin: 2% 15%;
+}
+}
+
+section.accede{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+}
+section.accede h2{
+  margin: 2% 15%;
+}
+div .contenedorTexto{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.accedeLink{
+  text-align: center;
+  background-color: rgb(147, 195, 207);
+  color: black;
+  border: none;
+  font-family: "Baloo 2",sans-serif;
+  font-size: large;
+  font-weight: 700;
+  border-radius: 0.25rem;
+  margin-top: 5%;
+  width: 5rem;
+  height: 2rem;
+}
+div .contenedorAccede{
+ display: flex;
+flex-direction: row-reverse;
+align-items: center;
+justify-content: space-between;
+}
+/* Estilos para tablets y dispositivos con pantalla más grande */
+@media only screen and (min-width: 601px) {
+  section.accede{
+    margin: 2% 15%;
+  }
+  .Presentacion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2% 15%;
+  }
+
+  .Presentacion img {
+    max-width: 40%;
+    margin-left: 2rem;
+  }
+
+  .Buscador {
+    margin: 2% 20%;
+  }
+
+  .Voto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2% 15%;
+  }
+
+  .Voto img {
+    max-width: 40%;
+    margin-right: 2rem;
+  }
+.imagenAccede{
+   width: 50%;
+  height: auto;
+  margin-left: 20px;
+}
+.contenedorTexto {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%;
+}
+
+}
+

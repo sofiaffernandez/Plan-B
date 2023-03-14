@@ -1,0 +1,22 @@
+
+div.about{
+  align-self: center;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+div.about h2{
+  align-self: center;
+  font-family: "baloo 2", sans-serif;
+  font-size: 2rem;
+  padding: 1rem;
+}
+div.about p{
+  font-family: "Epilogue", sans-serif;
+  padding: 1rem;
+  text-align: justify;
+}
+div.about ul{
+  padding-left: 1.5rem;
+  list-style: none;
+}

@@ -1,0 +1,67 @@
+
+header nav{
+    justify-content: space-around;
+    background: rgba(255, 253, 253, 0.685);
+    box-shadow: 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: black;
+}
+header nav ul{
+    display: flex;
+    flex-direction: column;
+}
+header nav ul li{
+    justify-content: center;
+    justify-items: center;
+    align-self: center;
+    padding: 0.25rem;
+}
+header nav ul li.logoPagina{
+   display: none;
+}
+header nav ul section{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-self: center;
+    gap: 2rem;
+    padding: 0.25rem;
+}
+
+header a {
+    color: black;
+    text-decoration: none;
+}
+header a.active {
+    text-decoration: underline;
+}
+header button {
+    justify-content: center;
+    justify-items: center;
+    align-self: center;
+    background:none;
+    border: none;
+}
+
+@media (min-width: 700px) {
+header nav {
+    display: flex;
+    flex-direction: row;
+}
+
+header nav ul {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+
+}
+
+header nav ul li.logoPagina{
+    display: block;
+ }
+header img {
+    display:inline;
+    height: 80px;
+    overflow: hidden;
+}
+  
+}

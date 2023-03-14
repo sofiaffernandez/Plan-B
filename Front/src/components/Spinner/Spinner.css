@@ -1,0 +1,11 @@
+div.spinnerdiv{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+}
+svg.spiner{
+align-self: center;
+
+}

@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&family=Epilogue:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lilita+One&family=Sniglet:wght@400;800&display=swap');
+section.UnicaRecomendacion{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+    justify-content:center;
+    justify-self:center;
+    padding:5%;
+}
+.nombreComentario{
+font-weight: bold;
+margin-bottom: 0.25rem;
+}
+.nombreComentario:hover{
+  color: #405155bb;
+  }
+.fechaComentario{
+  font-size: 0.80rem;
+  margin-top: 0.25rem;
+}
+section.UnicaRecomendacion img{
+ display: block;
+ align-self: center;
+ align-items: center;
+  width: 80%;
+}
+section.UnicaRecomendacion h2{
+    font-family: "Epilogue",sans-serif;
+    font-size: 2rem;
+    padding-bottom:1rem;
+    text-align: center;
+}
+section.UnicaRecomendacion h3{
+    padding-left:2%;
+    padding-bottom: 2%;
+}
+section.UnicaRecomendacion p{
+    text-align: justify;
+}
+section.UnicaRecomendacion p.creada
+{
+  text-align: left;
+  align-self: start;
+font-size: small;
+padding-top: 1% ;
+padding-bottom:2%;
+}
+
+.texto-comentario {
+    width: 300px;
+    height: 100px;
+  }
+  div.estrellas{
+    display: flex;
+    align-self: start;
+
+  }
+  section.comentar{
+    display: flex;
+    justify-content: center;
+  }
+  ul.listacomentarios {
+    align-self: start;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 1rem 0rem;
+  }
+  section.deleteComentario {
+    display: flex;
+    justify-content: flex-end;
+  }
+  section.deleteComentario svg{
+    background-color: rgb(147, 195, 207);
+    color: black;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    margin: 0rem 0rem 1rem;
+  }
+  section.editRecomendacion ,
+  section.delete {
+    align-self: flex-end;
+  }
+  section.editRecomendacion svg,
+  section.delete svg{
+    background-color: rgb(147, 195, 207);
+    color: black;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.75rem;
+    cursor: pointer;
+    margin: 0rem 0rem 1rem;
+}
+@media only screen and (min-width: 601px) {
+
+
+}

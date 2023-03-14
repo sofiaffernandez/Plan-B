@@ -1,0 +1,105 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400;500;600;700;800&family=Epilogue:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Lilita+One&family=Sniglet:wght@400;800&display=swap');/* CSS general, resetear, modo noche y día, quitar el estilo a las listas  */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+div#root, div.App{
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+div#root main {
+  flex-grow: 1;
+}
+
+ul {
+  list-style: none;
+}
+h1{
+  margin-top: 1rem;
+  font-family: "Epilogue", sans-serif;
+  font-weight: 500;
+}
+h2{
+  font-family: "Baloo 2", sans-serif;
+}
+header a:hover{
+  color: #405155;
+}
+
+main.light{
+  background-color: whitesmoke;
+  color: black;
+  min-height: calc(100vh - 8rem);
+  display:flex;
+  flex-direction: column;
+}
+main.light a{
+  color: #2F4858;
+  text-decoration: none;
+}
+main.light a:hover{
+  color: #2F4858;
+}
+
+main.light h1, 
+main.light h2,
+main.light h3{
+color: #062D3E;
+text-align: center;
+}
+main.dark {
+  background-color: #18181a;
+  color: white;
+  min-height: calc(100vh - 8rem);
+  display: flex;
+  flex-direction: column;
+} 
+main.dark a{
+  color:#56819c;
+  text-decoration: none;
+}
+main.dark a:hover{
+  color: #2f4858d7;
+}
+main.dark h1,
+main.dark h2,
+main.dark h3{
+  color: #b3c2bf;
+  text-align: center;
+  }
+
+main.dark form ul{
+  background-color: #405155;
+  color: black;
+}
+
+main.light button {
+    background-color: rgb(147, 195, 207);
+    color: black;
+    border: none;
+    
+    height: 3rem;
+    font-family: "Baloo 2",sans-serif;
+    font-size: large;
+    font-weight: 700;
+    border-radius: 0.25rem;
+    padding: 0.5rem 1rem;
+    margin: 1rem;
+}
+main.dark button {
+  background-color: #405155;
+  color: white;
+  border: none;
+  height: 3rem;
+  font-family: "Baloo 2",sans-serif;
+  font-size: large;
+  font-weight: 700;
+  border-radius: 0.25rem;
+  padding: 0.5rem 1rem;
+  margin: 1rem;
+}

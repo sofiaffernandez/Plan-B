@@ -1,0 +1,29 @@
+main div.error {
+display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+}
+section.error{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+section.error h1{
+    margin:1rem;
+}
+section.error p{
+    margin:1rem;
+}
+img.fotoViajero{
+display: none;
+}
+
+@media (min-width: 600px) {
+ img.fotoViajero {
+  display: block;
+  width: 500px;
+  align-self: center;
+ }
+}

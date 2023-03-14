@@ -1,0 +1,119 @@
+.lista3Recomendaciones li a{
+  list-style: none;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  margin: 1rem;
+}
+.lista3Recomendaciones img{
+  align-self: center;
+  width: 70%;
+}
+@media only screen and (min-width: 601px) {
+  img.rellenologoplan {
+    width: auto;
+    max-width: 50%;
+  }
+.lista3Recomendaciones {
+    list-style: none;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 1rem;
+  }
+  
+  .lista3Recomendaciones li {
+    flex: 0 0 33%;
+    min-width: 33%;
+    max-width: 33%;
+    position: relative;
+    text-align: center;
+  }
+  
+  .lista3Recomendaciones li:first-child {
+    flex: 0 0 30%;
+    min-width: 30%;
+    max-width: 30%;
+    position: relative;
+    text-align: center;
+   
+  }
+  
+  .lista3Recomendaciones li:nth-child(2) {
+    flex: 0 0 40%;
+    min-width: 40%;
+    max-width: 40%;
+    position: relative;
+    text-align: center;
+  
+  }
+  .lista3Recomendaciones li:nth-child(3) {
+    flex: 0 0 30%;
+    min-width: 30%;
+    max-width: 30%;
+    position: relative;
+    text-align: center;
+
+  }
+  
+  .lista3Recomendaciones li:hover {
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 10;
+  }
+  
+  .lista3Recomendaciones li h3 {
+    display: none;
+    position: absolute;
+    z-index: 5;
+    bottom: 0;
+    padding: 0.5rem;
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 100%;
+  }
+  
+  .lista3Recomendaciones li:hover h3{
+    display: block;
+  }
+
+  .lista3Recomendaciones li img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  .lista3Recomendaciones li:hover img {
+    filter: blur(1px);
+  }
+h3{
+  text-align: center;
+}
+section.noRecomendaciones, div.accede, div.creaRecomendacion{
+  display: flex;
+  flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+p.noRecomendacion{
+  margin: 0% 10% 5% 10%;
+}
+.creaLink{
+  text-align: center;
+  background-color: rgb(147, 195, 207);
+  color: black;
+  border: none;
+  height: 3rem;
+  font-family: "Baloo 2",sans-serif;
+  font-size: large;
+  font-weight: 700;
+  border-radius: 0.25rem;
+  margin-top: 5%;
+  width: 5rem;
+  height: 2rem;
+}
+
+
+}
